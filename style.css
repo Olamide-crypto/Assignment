@@ -46,7 +46,7 @@ form {
 .submit {
   margin: 10px 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 #submit_btn {
@@ -56,9 +56,38 @@ form {
   border-radius: 30px;
   padding: 5px 15px;
   text-transform: capitalize;
+  transition: ease-in;
 }
 
 #submit_btn:hover {
   color: white;
   background: orangered;
+  padding: 5px 25px;
+}
+
+.all_icon {
+  display: flex;
+}
+
+.icon {
+  margin: 5px;
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  color: orangered;
+  background: white;
+}
+footer {
+  height: 50px;
+  background: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
